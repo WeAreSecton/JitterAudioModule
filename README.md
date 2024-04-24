@@ -13,7 +13,7 @@
 3. Open *DevTools* using **Ctrl + Shift + I** or **F12** and switch to the *Console* tab.
 3. Enter the following command and press **Enter** to inject the script:
     ```js
-    fetch('https://raw.githubusercontent.com/WeAreSecton/JitterAudioModule/main/JitterAudioModule.js').then(response => response.text()).then(script => eval(scriptText));
+    fetch('https://raw.githubusercontent.com/WeAreSecton/JitterAudioModule/main/JitterAudioModule.js').then(response => response.text()).then(script => eval(script));
     ```
 
 ## License
